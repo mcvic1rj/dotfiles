@@ -58,6 +58,7 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/S
 
 # Enable Darkmode
 defaults write NSGlobalDomain AppleInterfaceStyle Dark
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
