@@ -134,6 +134,9 @@ chflags nohidden ~/Library
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
+# Set to show battery percentage
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+
 # Set the icon size of Dock items
 defaults write com.apple.dock tilesize -int 30
 
