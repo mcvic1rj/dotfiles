@@ -1,6 +1,7 @@
 [user]
   name = Ryan McVicar
   email = rymcvicar@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMHy85c4JmnMT1QhPnCeAsC1zUCyRax1TI1KQ7Yti5nL
 [core]
   editor = code --wait
   excludesfile = ~/.gitignore
@@ -18,3 +19,9 @@
   prompt = false
 [pull]
 	rebase = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
